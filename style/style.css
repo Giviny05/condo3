@@ -1,0 +1,105 @@
+/* @media (max-width:576px) {
+    .offcanvas{
+        width: 85% !important;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.playfair{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.banner>.blur{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.571);
+    z-index: 1;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+h1{
+   color: white; 
+   font-size: 70px;
+}
+ul>li{
+    color: white;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.playfair{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+}
+.Oleo-font{
+    font-family: "Oleo Script Swash Caps", system-ui;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 150px;
+  }
+  
+@media (max-width: 576px){
+    .offcanvas{
+        width: 85% !important;
+    }
+}
+
+
+.hero{
+    height: 100vh;
+    width: 100%;
+}
+.card:hover{
+    transform: scale(1.008);
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 0 10px gray;
+}
+.benner{
+    height: 100vh;
+    width: 100%;
+}
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    
+    font-style: normal;
+ }
+ .card .image{
+    height: 240px;
+ }
+ @media (max-width: 576px) {
+    .card .image{
+        height: 110px;
+     }
+     h2{
+        font-size: 20px;
+     }
+     p{
+        font-size: 13px;
+     }
+ }
+ @media (max-width: 992px) {
+    .card .image{
+        height: 140px;
+     }
+ }
+.text-hover:hover{
+    color: rgb(197, 143, 100) !important;
+}
+.benner > .blur{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.571);
+    z-index: 1;
+}
+cticle p{
+    font-size: clamp(12px,3.4vw,18px);
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
